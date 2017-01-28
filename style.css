@@ -9,15 +9,16 @@ button {
 }
  h2 {
  	color: white;
+ 	font-family: 'Overpass', sans-serif;
  }
 #name {
-	background-color: #800000;
-	text-align: left;
+	background-image: url("titlebackground.jpg");
+	text-align: right;
 	color: white;
 	border-radius: 25px;
 	padding-top: 2%;
 	padding-bottom: 3%;
-	padding-left: 3%;
+	padding-right: 3%;
 	margin-top: 1%;
 }
 
@@ -30,29 +31,26 @@ li {
    	float: left;
 }
 
+hr {
+ 	margin-left: 100px;
+ 	margin-right: 100px;
+ }
 .dogpic {
 	margin-top: 10%;
-	/*float: right;
-	position: relative;
+	/*
   	left: -10%; 
 	margin-left: -80px;*/
-	/*width: 120%;*/
     /*border-radius: 2500px; */
 }
 
 .catpic {
-	/*float: right;
-	position: relative;
-	margin-left: 5%;*/
+	/*margin-left: 5%;*/
  	margin-top: 10%;
- 	/*width: 120%;*/
  }
 
 .dogpic2 {
-	/*float: left;
-	margin-right: 0%;*/
+	/*margin-right: 0%;*/
 	margin-top: 10%;
-	/*width: 120%;*/
 }
 
  .bio {
@@ -66,3 +64,36 @@ li {
  	border-radius: 25px;
  }
 
+.cat-title {
+	font-size: 300%;
+	padding-left: 5%;
+}
+
+.contact-title {
+	padding-top: 5%;
+	padding-left: 10%;
+}
+
+
+
+.col-md-4 {
+	padding: 0 0 0 0;
+}
+
+
+.menu-image img {
+    opacity: 0.8;
+}
+
+.menu-image img:hover {
+    opacity: 0.4;
+}
+
+.content {
+	position: absolute;
+	margin-top:-180px;
+	margin-left:40%;
+	font-weight:bold;
+	color:white;
+	font-size:150%;
+}
