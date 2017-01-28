@@ -1,0 +1,62 @@
+body {
+	background-color: black;
+}
+
+button {
+	float: right;
+	position: relative;
+  	left: -50%; 
+}
+ h2 {
+ 	color: white;
+ }
+#name {
+	background-color: #800000;
+	text-align: left;
+	color: white;
+	border-radius: 25px;
+	padding-top: 2%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	margin-top: 1%;
+}
+
+#name h1 {
+	font-size: 290%;
+	font-family: 'Oswald', sans-serif;
+}
+
+li {
+   	float: left;
+}
+
+.dogpic {
+	margin-top: 7%;
+	float: right;
+	position: relative;
+  	left: -10%; 
+	margin-left: -80px;
+	width: 120%;
+    /*border-radius: 2500px; */
+}
+
+.catpic {
+	float: right;
+	position: relative;
+	margin-left: 5%;
+ 	margin-top: 7%;
+ 	width: 120%;
+ }
+
+.dogpic2 {
+	float: left;
+	margin-top: 7%;
+	margin-right: 0%;
+	width: 120%;
+}
+
+ .bio {
+ 	font-size: 150%;
+ 	color: white;
+ 	margin-left: 20%;
+ }
