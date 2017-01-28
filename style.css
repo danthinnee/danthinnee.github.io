@@ -31,28 +31,28 @@ li {
 }
 
 .dogpic {
-	margin-top: 7%;
-	float: right;
+	margin-top: 10%;
+	/*float: right;
 	position: relative;
   	left: -10%; 
-	margin-left: -80px;
-	width: 120%;
+	margin-left: -80px;*/
+	/*width: 120%;*/
     /*border-radius: 2500px; */
 }
 
 .catpic {
-	float: right;
+	/*float: right;
 	position: relative;
-	margin-left: 5%;
- 	margin-top: 7%;
- 	width: 120%;
+	margin-left: 5%;*/
+ 	margin-top: 10%;
+ 	/*width: 120%;*/
  }
 
 .dogpic2 {
-	float: left;
-	margin-top: 7%;
-	margin-right: 0%;
-	width: 120%;
+	/*float: left;
+	margin-right: 0%;*/
+	margin-top: 10%;
+	/*width: 120%;*/
 }
 
  .bio {
@@ -60,3 +60,8 @@ li {
  	color: white;
  	margin-left: 20%;
  }
+
+ .contact {
+ 	background-color: white;
+ }
+
